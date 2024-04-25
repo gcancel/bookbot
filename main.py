@@ -17,7 +17,7 @@ def main():
     #letter count
     print('Now counting letters in the book.')
     print(f'Data: {total_letters}')
-    print('Sorting data to make it more presentable')
+    print('Sorting data to make it more presentable...')
     print('--- Printing Report ---')
 
     #now for the sorted report
@@ -26,8 +26,8 @@ def main():
         if not item["letter"].isalpha():
             continue
         print(f'The {item["letter"]} character was found {item["num"]} times!')
-    
-    print()
+
+    print('--- Report Complete ---') 
 
 #pulling text from file
 def get_text(text):
