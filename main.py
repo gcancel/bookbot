@@ -26,8 +26,8 @@ def main():
         if not item["letter"].isalpha():
             continue
         print(f'The {item["letter"]} character was found {item["num"]} times!')
-
-    print('--- Report Complete ---') 
+        
+    print('--- Report Complete ---')
 
 #pulling text from file
 def get_text(text):
